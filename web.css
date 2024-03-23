@@ -1,0 +1,91 @@
+.inline-block{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: -2px;
+    vertical-align: middle;
+}
+*{
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nv{
+    width: 20%;
+    padding: 10px 20px;
+}
+.bar{
+    width: 80%;
+    text-align: right;
+}
+.bar .inline-block{
+    padding: 20px;
+}
+.bar .inline-block:hover{
+    color: orangered;
+}
+.img{
+    height: 600px;
+    background-image: url('sun.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top:100px;
+    color: whitesmoke;
+}
+.text .inline-block{
+
+}
+.text i{
+    font-size: 40px;
+    color: orangered;
+}
+.content{
+    text-align: center;
+}
+.box{
+    width: 25%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.527);
+    padding: 20px;
+
+}
+.box i{
+    font-size: 40px;
+    color: orangered;
+    
+}
+.box button{
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    
+}
+.brdr{
+    border-right: 1px solid gray;
+}
+.dwn{
+    text-align: center;
+}
+.end{
+    border: 1px solid black;
+    position: relative;
+    
+}
+.ends i{
+    font-size: 25px;
+    color: orangered; 
+
+}
+.ends{
+    position: absolute;
+    top: -15px;
+    left:50%;
+    background-color:white ;
+}
+.nvbar{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    
+}
